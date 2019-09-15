@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ItineraryParisAct"
+    android:background="@drawable/bg">
+
+
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="8dp"
+                android:fontFamily="@font/mmedium"
+                android:text="Tour Detail"
+                android:textColor="@color/darkPrimary"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_layout" />
+
+                    <TextView
+                        android:layout_width="365dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="-380dp"
+                        android:layout_marginTop="8dp"
+                        android:text="DAY 1: \nJoin tour di Avenue des Champs Elysees, meeting Point di La Brioche Dorée Restaurant alamat 144 Avenue des Champs Elysees, 75008 Paris (nearby Arc de Triomphe), Metro: Line 1 Stop: George V, exit Avenues Des Champs Elysees, pukul 10.00 pagi (mohon berada di meeting point 15 -30 menit sebelumnya). Anda akan berada di Paris selama dua hari ke depan saat Anda menikmati tour berpemandu di sekitar salah satu kota paling terkenal di dunia. Petualangan Paris Anda dimulai dengan awal yang spektakuler dengan perjalanan di sepanjang ChampsÉlysées yang terkenal sampai Place de la Concorde, yang memainkan peran kunci dalam Revolusi Prancis. Anda juga akan melihat Arc de Triomphe yang ikonik di sini, monumen megah yang berada di dekat ujung barat jalan dan memperingati jatuhnya revolusi dan perang Napoleon. Anda akan melihat bangunan bersejarah penting lainnya saat Anda menuju L`Hôtel National des Invalides, di mana terletak Makam Napoleon, dan berhenti di Menara Eiffel. Anda dapat meluangkan waktu untuk menjelajahi lingkungan dan makan siang atau eksplorasi Menara Eiffel (biaya dan pengaturan sendiri). Pilihan adalah milik Anda. Akhirnya, Anda akan melakukan perjalanan dengan bus melalui pinggiran kota Paris ke Istana Versailles yang indah. Di malam hari, Anda dapat menikmati salah satu acara malam di Paris (biaya tambahan). Hotel: 3 * di Paris atau kota di dekatnya.\n
+                                      \nDAY 2: \nWisata di Paris Anda dimulai dengan kunjungan ke Louvre, salah satu museum seni terbesar di dunia. Tour tambahan masuk ke Museum Louvre tersedia (biaya tambahan). Anda kemudian dapat mengambil pelayaran santai di sepanjang sungai Seine (biaya tambahan), pilihan wisata yang bagus yang menawarkan pemandangan indah landmark ikonis Paris, termasuk Katedral Notre-Dame dan Pont Alexandre III. Makan siang (biaya sendiri) sebelum menuju ke area di sekitar Palais Garnier, gedung opera Paris. Setelah itu, Anda memiliki pilihan untuk menikmati France 4 course Dinner (biaya tambahan) atau menghabiskan waktu berbelanja di department store legendaris di Galeries Lafayette. Hotel: 3 * di Paris atau kota di dekatnya.\n
+                                      \nDAY 3: \nPagi ini Tour berangkat dari Paris untuk perjalanan yang menyenangkan melalui pedesaan daerah Champagne, untuk sparkling white wine terkenal di dunia yang diproduksi di sini. Nikmati melihat atraksi bersejarah ibukota provinsi Reims, termasuk City`s Cathedral yang merupakan situs warisan nasional utama, di mana penobatan raja Prancis berlangsung dari abad ke-11 dan seterusnya. Sejarah dan tradisi sama-sama terbukti di lokasi Anda berikutnya: Luksemburg, satu-satunya di dunia tersisa Grand Duchy. Setelah tiba di Kota Luksemburg yang bagus, Anda akan diperkenalkan dengan berjalan kaki ke tempat-tempat utama yang menarik, termasuk Place de Constitution dan Pont Adolphe, sebelum memiliki waktu untuk eksplorasi lebih lanjut sendiri. Tour berakhir.\n
+                                      \nInclude: \n - Akomodasi di hotel 3* yang nyaman, kamar twin dengan fasilitas pribadi
+                                      \n - Sarapan kontinental setiap hari
+                                      \n - Layanan dari manajer tur yang berpengalaman
+                                      \n - Tur wisata dan orientasi termasuk dalam itinerary
+                                      \n - Transportasi harian dengan transportasi Bus modern ber-AC
+                                      \n - Sopir yang profesional \n
+                                      \nExclude: \n - Tiket Penerbangan atau biaya perjalanan lainnya, Visa dan Asuransi perjalanan
+\n - Tiket masuk semua atraksi atau objek wisata
+\n - Transfer Bandara
+\n - Pre dan Post hotel
+\n - Setiap aktivitas tambahan, tour atau pertunjukan yang tidak termasuk di dalam itinerary
+\n - Makanan (termasuk tips) dan minuman tidak termasuk di dalam itinerary
+\n - Tips Guide dan sopir EUR 7 per orang per hari
+\n - Biaya pribadi (laundry, internet, panggilan telpon dan lain - lain)
+\n - Biaya masuk kota + Pajak (dapat berubah sewaktu - waktu dan harus dibayar sebelum memasuki kota): Paris City entrance + Overnight city tax: EUR 15/orang/hari
+\n - Daya tarik objek wisata dengan list biaya opsionalnya (Silakan gunakan sebagai referensi saja, karena harga dapat berubah karena beberapa kunjungan tergantung pada jumlah minimum peserta dan ketersediaan. Pilihan dipesan saat tour, Manajer Tour Anda akan mengatur atas nama Anda dan menerima pembayaran tunai (Euro) pada saat di bus):
+\n      - Palace of Versailles: EUR 18/orang
+\n      - Paris by Night: EUR 35/orang
+\n      - Le Louvre Museum (umur 18 tahun kebawah gratis): EUR 15/orang
+\n      - River Seine Cruise: EUR 14/orang
+\n      - Lido/Moulin Rouge Show with transfer: EUR 150/orang \n
+"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/blackPrimary"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.362" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

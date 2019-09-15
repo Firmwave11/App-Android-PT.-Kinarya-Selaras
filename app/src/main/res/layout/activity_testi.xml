@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".TestiAct">
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="8dp"
+                android:fontFamily="@font/mmedium"
+                android:text="TESTIMONIAL"
+                android:textColor="@color/darkPrimary"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="-30dp">
+
+                    <View
+                        android:layout_width="250dp"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="32dp"
+                        android:background="@drawable/bg_layout_white" />
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="-240dp"
+                        android:layout_gravity="center"
+                        android:text="'I highly recommend it for those who like to see Israel, have a great adventure and meet people from all over the world and not cost an arm and a leg as a tourist.'"
+                        android:textColor="@color/blackPrimary"
+                        app:layout_constraintBottom_toBottomOf="@+id/linearLayout3"
+                        app:layout_constraintStart_toStartOf="@+id/linearLayout3"
+                        app:layout_constraintTop_toTopOf="@+id/linearLayout3"
+                        app:layout_constraintVertical_bias="0.362" />
+
+
+                    <ImageView
+                        android:layout_width="98dp"
+                        android:layout_height="98dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/bg_picture_circle" />
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="95dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="-97dp"
+                        android:background="@drawable/dddd" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="148dp">
+
+                    <View
+                        android:layout_width="250dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/bg_layout_white" />
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="-190dp"
+                        android:layout_gravity="center"
+                        android:text="'Overall the VFI program was wonderful and represented one of the greatest travel experiences we have ever had.' \n- Brigitta Cole"
+                        android:textColor="@color/blackPrimary"
+                        android:textSize="13sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/linearLayout2"
+                        app:layout_constraintStart_toStartOf="@+id/linearLayout2"
+                        app:layout_constraintTop_toTopOf="@+id/linearLayout2"
+                        app:layout_constraintVertical_bias="0.362" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="207dp"
+                android:background="@drawable/bg_picture_circle"
+                app:layout_constraintBottom_toBottomOf="@+id/linearLayout2"
+                app:layout_constraintEnd_toEndOf="@+id/linearLayout2"
+                app:layout_constraintTop_toTopOf="@+id/linearLayout2" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="95dp"
+                android:layout_height="95dp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="208dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/sahar"
+                app:layout_constraintBottom_toBottomOf="@+id/linearLayout2"
+                app:layout_constraintEnd_toEndOf="@+id/linearLayout2"
+                app:layout_constraintTop_toTopOf="@+id/linearLayout2"
+                app:layout_constraintVertical_bias="0.61" />
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="375dp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="-30dp">
+
+                    <View
+                        android:layout_width="250dp"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="32dp"
+                        android:background="@drawable/bg_layout_white" />
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="-240dp"
+                        android:layout_gravity="center"
+                        android:text="'Suasana yang penuh kekeluargaan dan layanan yang sangat memuaskan. Rasa nyaman yang kami dapatkan membuat ibadah kami semakin Khusyu’.'  - Maulana"
+                        android:textColor="@color/blackPrimary"
+                        android:textSize="13sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/linearLayout5"
+                        app:layout_constraintStart_toStartOf="@+id/linearLayout5"
+                        app:layout_constraintTop_toTopOf="@+id/linearLayout5"
+                        app:layout_constraintVertical_bias="0.362" />
+
+
+                    <ImageView
+                        android:layout_width="98dp"
+                        android:layout_height="98dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/bg_picture_circle" />
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="95dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="-97dp"
+                        android:background="@drawable/beta" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="377dp"
+                android:layout_marginEnd="8dp"
+                android:gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="148dp">
+
+                    <View
+                        android:layout_width="250dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/bg_layout_white" />
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="-190dp"
+                        android:layout_gravity="center"
+                        android:text="'I have been to Israel 5 times: twice on tours and 3 times with Kinarya.  Every trip has been a wonderful experience and an adventure. This last trip by Kinarya has been the best of all 5.' - Rachel "
+                        android:textColor="@color/blackPrimary"
+                        android:textSize="13sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/linearLayout4"
+                        app:layout_constraintStart_toStartOf="@+id/linearLayout4"
+                        app:layout_constraintTop_toTopOf="@+id/linearLayout4"
+                        app:layout_constraintVertical_bias="0.362" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="210dp"
+                android:background="@drawable/bg_picture_circle"
+                app:layout_constraintBottom_toBottomOf="@+id/linearLayout4"
+                app:layout_constraintEnd_toEndOf="@+id/linearLayout4"
+                app:layout_constraintTop_toTopOf="@+id/linearLayout4"
+                app:layout_constraintVertical_bias="0.519" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="95dp"
+                android:layout_height="95dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="211dp"
+                android:background="@drawable/rachel"
+                app:layout_constraintBottom_toBottomOf="@+id/linearLayout4"
+                app:layout_constraintEnd_toEndOf="@+id/linearLayout4"
+                app:layout_constraintTop_toTopOf="@+id/linearLayout4"
+                app:layout_constraintVertical_bias="0.272" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

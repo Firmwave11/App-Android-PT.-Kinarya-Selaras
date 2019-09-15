@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "969965742848",
+    "firebase_url": "https://kinarya.firebaseio.com",
+    "project_id": "kinarya",
+    "storage_bucket": "kinarya.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969965742848:android:01409cb8f0c9abd9",
+        "android_client_info": {
+          "package_name": "com.example.kinarya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969965742848-3ktdofif952rvav2gtragvivkv5rbmo9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kinarya",
+            "certificate_hash": "29605239523e6e3b9aa761afa875543612ea33a7"
+          }
+        },
+        {
+          "client_id": "969965742848-7k3j8quum7gapb34c512feianelhsgje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCew7s4700Ac0sbrGIE-ZNmEaxaWJIVsw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969965742848-7k3j8quum7gapb34c512feianelhsgje.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
